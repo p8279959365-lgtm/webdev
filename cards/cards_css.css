@@ -1,0 +1,38 @@
+.container{
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    width:100vw;
+    height:100vh;
+    border:2px solid black;
+}
+.box{
+    display:flex;
+    flex-direction:column;
+    background-color:white;
+    width:325px;
+    height:450px;
+    margin:auto;
+    margin-top:150px;
+    border:2px solid white ;
+    border-radius:20px;
+    transition-property:all;
+    transition-duration:0.7s;
+    transition-timing-function:ease;
+}
+.box:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.4);
+}
+#heading{
+    margin:5px;
+}
+#scan{
+    margin:5px;
+}
+#qr{
+    width:300px;
+    height:300px;
+    margin:auto;
+    border-radius:10px;
+    border:2px solid blue;
+}

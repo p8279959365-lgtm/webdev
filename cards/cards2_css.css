@@ -1,0 +1,92 @@
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100vw;
+    height:100vh;
+    background: #DCFFBD;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #CC86D1, #DCFFBD);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #CC86D1, #DCFFBD);
+
+}
+#head{
+    text-align:center;
+}
+#text{
+    text-align:center;
+    margin:20px;
+}
+.box{
+    width:400px;
+    height:700px;
+    background-color:white;
+    border-radius:20px;
+    transition-property:all;
+    transition-duration:1s;
+    transition-timing-function:ease;
+    display:flex;
+    flex-direction:column;
+}
+.box:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.4);
+}
+.smallcontainer{
+    display:flex;
+    flex-direction:row;
+    width:350px;
+    height:70px;
+    background: #DCFFBD;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #CC86D1, #DCFFBD); 
+     background: linear-gradient(to right, #CC86D1, #DCFFBD);
+     align-items:center;
+     justify-content:space-around;
+     margin:20px;
+     border-radius:10px;
+     box-shadow: 0 15px 20px rgb(0,0,0,0.2);
+     transition-duration:0.5s;
+}
+.smallcontainer:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 20px rgb(0,0,0,0.4);
+}
+.smallcontainer2{
+    background-color:rgb(4, 4, 62);
+    color:white;
+    width:350px;
+    height:70px;
+    text-align:center;
+    margin:20px;
+    border-radius:10px;
+    box-shadow: 0 15px 20px rgb(0,0,0,0.2);
+    transition-duration:0.5s;
+}
+.smallcontainer2:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 20px rgb(0,0,0,0.4);
+}
+.smallcontainer3{
+    background-color:white;
+    color:black;
+    width:350px;
+    height:70px;
+    text-align:center;
+    margin:20px;
+    border-radius:10px;
+    transition-duration:0.5s;
+}
+.smallcontainer3:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 20px rgb(0,0,0,0.2);
+}
+#parcel{
+    width:400px;
+    height:200px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+#money{
+    width:40px;
+    height:40px;
+    background-color:white;
+}

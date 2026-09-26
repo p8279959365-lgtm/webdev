@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations trial</title>
+    <style>
+        #box1{
+            border:2px solid black;
+            height:50px;
+            width:250px;
+            background-color:yellow;
+            position:relative;
+            border-radius:15px;
+            animation-name:animation-box1;
+            animation-duration:5s;
+            animation-delay:1s;
+            animation-iteration-count:infinite;
+            animation-timing-function:linear;
+            animation-direction:alternate;
+        }
+
+        .container
+        {
+            border:2px solid black;
+            height:100vh;
+            background-color:bisque;
+            margin:0px;
+            padding:0px;
+        }
+
+        #box2
+        {
+             border:2px solid black;
+            height:50px;
+            width:250px;
+            background-color:yellow;
+            border-radius:15px;
+            position:relative;
+             animation-name:animation-box2;
+            animation-duration:5s;
+            animation-delay:1s;
+            animation-iteration-count:infinite;
+            animation-timing-function:linear;
+            animation-direction:alternate;
+        }
+        .ball{
+            border:2px solid black;
+            width:50px;
+            height:50px;
+            margin:2px;
+            top:350px;
+            left:750px;
+            border-radius:50px;
+            position:relative;
+            background-color:blue;
+            animation-name:ball-animation;
+            animation-duration:5s;
+            animation-delay:1s;
+            animation-iteration-count:infinite;
+            animation-timing-function:linear;
+            animation-direction:alternate;
+        }
+        @keyframes animation-box1
+        {
+            from{
+                top:0;
+                left:0;
+            }
+            to{
+                top:0;
+                left:1200px;
+            }
+        }
+        @keyframes animation-box2
+        {
+            from
+            {
+                top:750px;
+                left:0px;
+            }
+            to
+            {
+                top:750px;
+                left:1200px
+            }
+        }
+        @keyframes ball-animation{
+            0%{
+                top:1%;
+                left:5%;
+            }
+            30%{
+                top:25%;
+                left:90%;
+            }
+            60%{
+                top:75%;
+                left:10%;
+            }
+            100%{
+                top:85%;
+                left:80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    
+           <div class="box" id="box1">
+               
+           </div>
+           <div class="ball">
+
+           </div>
+
+           <div class="box" id="box2">
+    
+           </div>
+
+    </div>
+</body>
+</html>

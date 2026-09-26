@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            background-color:antiquewhite;
+            flex-direction:row;
+            border:2px solid black;
+            margin:2px;
+            width:600px;
+            flex-wrap:wrap;
+        }
+        #leftbox{
+            background-color:aquamarine;
+            width:300px;
+            margin:5px;
+            border:2px solid black;
+        }
+        img{
+            height:190px;
+            margin:2px;
+            width:175px;
+        }
+        #rightbox{
+            background-color:yellow;
+            width:250px;
+            border:2px solid black;
+            margin:4px;
+        }
+        p{
+            border:2px solid red;
+        }
+        @media(max-width:640px)
+        {
+            .container{
+                flex-direction:column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="leftbox" class="box">
+            <p>TEXT1</p>
+            <p>TEXT2</p>
+        </div>
+        <div id="rightbox" class="box">
+            <img src="shirt.jpg" alt="">
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>

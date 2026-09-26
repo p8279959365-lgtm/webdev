@@ -1,0 +1,153 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+.navcontainer{
+    border:2px solid rgb(248, 246, 246);
+    margin:2px;
+    border-radius:8px;
+}
+#heading-box{
+    margin:3px;
+    padding:2px;
+}
+#list{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    list-style-type:none;
+}
+#listright{
+    font-size:2.0rem;
+}
+#heading{
+    color:white;
+    font-size:1.7rem;
+}
+#listright{
+    display:flex;
+    gap:20px;
+}
+.item{
+    width:400px;
+    height:400px;
+    border:2px solid white;
+    overflow:scroll;
+    margin:10px;
+    border-radius:10px;
+    padding:30px
+}
+.item{
+    transition:0.4s ease;
+}
+
+.item:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.4);
+}
+.item{
+    background:rgba(255,255,255,0.2);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.3);
+}
+#img1{
+    float:right;
+    height:200px;
+    width:200px;
+    border-radius:5px;
+    margin:10px;
+    transition-property:all;
+    transition-duration:2s;
+    transition-delay:0.5s;
+    transition-timing-function:linear;
+    border-top:4px;
+
+}
+h1{
+    text-align:center;
+    border:2px solid 
+}
+maincontent{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+#img1:hover
+{
+    transform:scale(1.2)
+}
+.item::-webkit-scrollbar{
+    width: 10px;
+}
+
+.item::-webkit-scrollbar-track{
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    border-radius: 10px;
+}
+
+.item::-webkit-scrollbar-thumb{
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    border-radius: 10px;
+}
+
+.item::-webkit-scrollbar-thumb:hover{
+    background:radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+h1{
+    animation:fade 2s;
+}
+
+@keyframes fade{
+    from{
+        opacity:0;
+        transform:translateY(-40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+#listright a{
+    color:white;
+    padding:10px 20px;
+    border-radius:8px;
+    transition:0.4s;
+}
+
+#listright a:hover{
+    background:white;
+    color:#090979;
+}
+footer{
+    height:10px;
+}
+#fid{
+    margin:5px;
+}
+#heading{
+
+    animation: glow 2s infinite alternate;
+
+}
+
+@keyframes glow{
+
+from{
+
+text-shadow:0 0 5px white;
+
+}
+
+to{
+
+text-shadow:0 0 30px gold;
+
+}
+
+}

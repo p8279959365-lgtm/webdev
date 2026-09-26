@@ -1,0 +1,9 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+#logo_image{
+    width:4.5rem;
+    height:4.5rem;
+}
