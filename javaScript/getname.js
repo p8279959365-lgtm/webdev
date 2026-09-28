@@ -20,3 +20,14 @@ function greetme(fname,lname)
     console.log(fname+lname);
 }
 
+// function return
+
+function getsquare(n){
+    return function square(n){
+        return(n*n);
+    }
+}
+ans=getsquare(5);
+console.log(ans);
+final=ans(10);
+console.log(final);
