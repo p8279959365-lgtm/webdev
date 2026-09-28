@@ -4,3 +4,4 @@ function average(a,b)
     console.log(avg);
 }
 average(12,5);
+
