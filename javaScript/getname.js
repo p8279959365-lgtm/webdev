@@ -8,10 +8,15 @@
 
 
 // assigning function to a variable
-let hi=function(){
+let hi=function()
+{
+    greetme("pratham","jain");
     console.log("hi hello");
 }
 hi();
-
-
+// 
+function greetme(fname,lname)
+{
+    console.log(fname+lname);
+}
 
